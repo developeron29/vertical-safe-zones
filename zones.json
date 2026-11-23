@@ -1,0 +1,38 @@
+{
+  "frame": { "width": 1080, "height": 1920 },
+  "lastChecked": "2026-11",
+  "note": "Pixels on a 1080x1920 (9:16) frame, from each platform's ad and creative templates. Platforms don't publish exact numbers for organic posts, and long captions push the bottom area higher, so treat these as minimums.",
+  "platforms": {
+    "tiktok": {
+      "label": "TikTok",
+      "margins": { "top": 240, "bottom": 660, "left": 120, "right": 300 },
+      "covered": [
+        { "name": "top bar", "x": 0, "y": 0, "width": 1080, "height": 240 },
+        { "name": "caption, sound and navigation", "x": 0, "y": 1260, "width": 1080, "height": 660 },
+        { "name": "left edge", "x": 0, "y": 240, "width": 120, "height": 1020 },
+        { "name": "right edge", "x": 960, "y": 240, "width": 120, "height": 600 },
+        { "name": "like, comment and share buttons", "x": 780, "y": 840, "width": 300, "height": 420 }
+      ]
+    },
+    "reels": {
+      "label": "Instagram Reels",
+      "margins": { "top": 270, "bottom": 670, "left": 65, "right": 65 },
+      "covered": [
+        { "name": "top bar", "x": 0, "y": 0, "width": 1080, "height": 270 },
+        { "name": "caption, audio and buttons", "x": 0, "y": 1250, "width": 1080, "height": 670 },
+        { "name": "left edge", "x": 0, "y": 270, "width": 65, "height": 980 },
+        { "name": "right edge", "x": 1015, "y": 270, "width": 65, "height": 980 }
+      ]
+    },
+    "shorts": {
+      "label": "YouTube Shorts",
+      "margins": { "top": 288, "bottom": 672, "left": 48, "right": 192 },
+      "covered": [
+        { "name": "top bar", "x": 0, "y": 0, "width": 1080, "height": 288 },
+        { "name": "title, channel and navigation", "x": 0, "y": 1248, "width": 1080, "height": 672 },
+        { "name": "left edge", "x": 0, "y": 288, "width": 48, "height": 960 },
+        { "name": "like, dislike, comment and share buttons", "x": 888, "y": 288, "width": 192, "height": 960 }
+      ]
+    }
+  }
+}
