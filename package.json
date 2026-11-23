@@ -6,19 +6,45 @@
   "main": "./index.js",
   "types": "./index.d.ts",
   "exports": {
-    ".": { "types": "./index.d.ts", "default": "./index.js" },
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
     "./zones.json": "./zones.json",
     "./templates/*": "./templates/*"
   },
-  "files": ["index.js", "index.d.ts", "zones.json", "templates/*.png", "templates/*.svg"],
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "zones.json",
+    "templates/*-guide.png",
+    "templates/*-outline.png",
+    "templates/*.svg"
+  ],
   "scripts": {
     "test": "node test.mjs",
     "templates": "node scripts/build-templates.mjs"
   },
-  "engines": { "node": ">=20.10" },
-  "keywords": ["safe-zone", "tiktok", "instagram-reels", "youtube-shorts", "vertical-video", "9:16", "overlay", "template", "short-form-video", "video-editing"],
+  "engines": {
+    "node": ">=20.10"
+  },
+  "keywords": [
+    "safe-zone",
+    "tiktok",
+    "instagram-reels",
+    "youtube-shorts",
+    "vertical-video",
+    "9:16",
+    "overlay",
+    "template",
+    "short-form-video",
+    "video-editing"
+  ],
   "homepage": "https://verticalvideomaker.app/safe-zone-checker/",
-  "repository": { "type": "git", "url": "git+https://github.com/developeron29/vertical-safe-zones.git" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developeron29/vertical-safe-zones.git"
+  },
   "bugs": "https://github.com/developeron29/vertical-safe-zones/issues",
   "license": "MIT"
 }
