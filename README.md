@@ -1,5 +1,7 @@
 # vertical-safe-zones
 
+[![npm](https://img.shields.io/npm/v/vertical-safe-zones)](https://www.npmjs.com/package/vertical-safe-zones) [![license](https://img.shields.io/npm/l/vertical-safe-zones)](LICENSE)
+
 Where TikTok, Instagram Reels and YouTube Shorts cover your 9:16 video with their buttons, captions and top bar. As **data**, a **tiny JS API** and **free overlay templates** (transparent PNG and SVG) you can drop on top of your video in any editor.
 
 ![Safe zones for TikTok, Instagram Reels, YouTube Shorts and all three](templates/preview.png)
